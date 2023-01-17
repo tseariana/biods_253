@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-n= 10
+n= 15
 for row in range(n):
     line= np.array([])
     for num in range(row+1):
