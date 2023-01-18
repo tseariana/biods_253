@@ -1,0 +1,6 @@
+SET UP DEPENDENCIES
+python3 -m venv .venv
+pip3 install -r requirements.txt
+
+RUN THE TIMING SCRIPT
+./timing.py --iterations 500 --outfile out.png --step=50 >/dev/null
